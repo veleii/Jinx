@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-image: linear-gradient(to bottom, #5614b0, #dbd65c);
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, #3a166b, #685483);
+    color: white;
+}
+
+button {
+    background-image: linear-gradient(to bottom, #3a166b, #685483);
+    color: white;
+    width: 8em;
+    height: 5em;
+    border-radius: 10%;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
